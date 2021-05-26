@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.EstruturaDeRepeticao;
 
 namespace CursoCSharp {
     class Program {
@@ -25,6 +26,12 @@ namespace CursoCSharp {
                 {"Operadores Ternário - fundamentos", OperadoresTernario.Executar },
                 // Estrutura de Controle
                 {"Estrutura If -  Estrutura de Controle", EstruturaIf.Executar },
+                {"Estrutura If/Else -  Estrutura de Controle", EstruturaIfElse.Executar },
+                {"Estrutura If/Else/If -  Estrutura de Controle", EstruturaIfElseIf.Executar },
+                {"Estrutura switch -  Estrutura de Controle", EstruturaSwitch.Executar },
+                
+                // Estrutura de Repetição
+                {"Estrutura de while -  Estrutura de Repetição", EstruturaWhile.Executar },
             });
 
             central.SelecionarEExecutar();
