@@ -14,8 +14,8 @@ namespace CursoCSharp.Fundamentos
             var idade = 125;
             Console.WriteLine(idade);
 
-            int a; // declaracao de variavel
-            int b = 2; // declarando variavel e inicializando
+           // int a; // declaracao de variavel
+            //int b = 2; // declarando variavel e inicializando
         }
     }
 }
