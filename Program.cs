@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
-using CursoCSharp.EstruturaDeRepeticao;
+using CursoCSharp.ClassesEMetados;
+
 
 namespace CursoCSharp {
     class Program {
@@ -29,9 +30,16 @@ namespace CursoCSharp {
                 {"Estrutura If/Else -  Estrutura de Controle", EstruturaIfElse.Executar },
                 {"Estrutura If/Else/If -  Estrutura de Controle", EstruturaIfElseIf.Executar },
                 {"Estrutura switch -  Estrutura de Controle", EstruturaSwitch.Executar },
+                {"Estrutura While -  Estrutura de Controle", EstruturaWhile.Executar },
+                {"Estrutura Do While -  Estrutura de Controle", EstruturaDoWhile.Executar },
+                {"Estrutura For -  Estrutura de Controle", EstruturaFor.Executar },
+                {"Estrutura ForEach -  Estrutura de Controle", EstruturaForEach.Executar },
+                {"Usando Break -  Estrutura de Controle", UsandoBreak.Executar },
+                {"Usando Continue -  Estrutura de Controle", UsandoContinue.Executar },
+                //Classes e Métodos
+                {"Membros -  Classes e Métodos", Membros.Executar },
                 
-                // Estrutura de Repetição
-                {"Estrutura de while -  Estrutura de Repetição", EstruturaWhile.Executar },
+                
             });
 
             central.SelecionarEExecutar();
