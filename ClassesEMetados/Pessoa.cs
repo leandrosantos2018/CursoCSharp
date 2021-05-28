@@ -20,5 +20,11 @@ namespace CursoCSharp.ClassesEMetados
         {
             Console.WriteLine(Apresentar());
         }
+
+        public void zera()
+        {
+            Nome = "";
+            Idade = 0;
+        }
     }
 }
