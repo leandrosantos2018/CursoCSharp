@@ -8,7 +8,6 @@ namespace CursoCSharp.ClassesEMetados
         public static void Executar()
         {
             Pessoa p = new Pessoa();
-            String i ;
             p.Nome = "Leandro";
             p.Idade = 25;
 
@@ -23,7 +22,14 @@ namespace CursoCSharp.ClassesEMetados
             fulado.Idade = 21;
 
             var apresentaDoFulano = fulado.Apresentar();
-            Console.WriteLine(fulado.Apresentar());
+            Console.WriteLine("---------------");
+            Console.WriteLine(apresentaDoFulano);
+
+
+            p.zera();
+
+            p.Apresentar();
+            p.ApresentaNoConsole();
         }
     }
 }
