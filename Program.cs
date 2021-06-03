@@ -26,6 +26,7 @@ namespace CursoCSharp {
                 {"Operadores Unários - fundamentos", OperadoresUnarios.Executar },
                 {"Operadores Ternário - fundamentos", OperadoresTernario.Executar },
                 // Estrutura de Controle
+
                 {"Estrutura If -  Estrutura de Controle", EstruturaIf.Executar },
                 {"Estrutura If/Else -  Estrutura de Controle", EstruturaIfElse.Executar },
                 {"Estrutura If/Else/If -  Estrutura de Controle", EstruturaIfElseIf.Executar },
@@ -36,13 +37,19 @@ namespace CursoCSharp {
                 {"Estrutura ForEach -  Estrutura de Controle", EstruturaForEach.Executar },
                 {"Usando Break -  Estrutura de Controle", UsandoBreak.Executar },
                 {"Usando Continue -  Estrutura de Controle", UsandoContinue.Executar },
-                //Classes e Métodos
+               
+                //Classes e Métodos]
+
                 {"Membros -  Classes e Métodos", Membros.Executar },
-                {"Construtores - Classes e metodos -  Classes e Métodos", Construtores.Executar },
-                {"Metodos com Retorno - Classes e metodos -  Classes e Métodos", MetodosComRetorno.Executar },
-                {"Metodos  Estátic - Classes e metodos -  Classes e Métodos", MetadoEstaticos.Executar },
-                {"Atributos  Estátic - Classes e metodos -  Classes e Métodos", AtributiEstaticos.Executar },
-                {"Desafio Atributos  Estátic - Classes e metodos -  Classes e Métodos", DesafioAtribudo.Executar },
+                {"Construtores -  Classes e Métodos", Construtores.Executar },
+                {"Metodos com Retorno -  Classes e Métodos", MetodosComRetorno.Executar },
+                {"Metodos  Estátic -  Classes e Métodos", MetadoEstaticos.Executar },
+                {"Atributos  Estátic - Classes e métodos", AtributiEstaticos.Executar },
+                {"Desafio Atributos  Estátic - Classes e métodos ", DesafioAtribudo.Executar },
+                {"Paramentros Varíaveis - Classes e métodos ", Params.Executar },
+                {"Paramentros Nameados - Classes e métodos ", ParamsNomeados.Executar },
+                {"Gets e Sets - Classes e métodos ", GetSet.Executar },
+                {"Propriedade - Classes e métodos ", Props.Executar },
                 
                 
                 
