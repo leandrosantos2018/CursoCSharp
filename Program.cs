@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetados;
+using CursoCSharp.Colecoes;
 
 
 namespace CursoCSharp {
@@ -10,6 +11,7 @@ namespace CursoCSharp {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 // Fundamento
+               
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentário - fundamentos", Comentarios.Executar },
                 {"Variaveis e Constante - fundamentos", VariaveisEConstantes.Executar },
@@ -25,6 +27,7 @@ namespace CursoCSharp {
                 {"Operadores Atribuição - fundamentos", OperadoresAtribuicao.Executar },
                 {"Operadores Unários - fundamentos", OperadoresUnarios.Executar },
                 {"Operadores Ternário - fundamentos", OperadoresTernario.Executar },
+                
                 // Estrutura de Controle
 
                 {"Estrutura If -  Estrutura de Controle", EstruturaIf.Executar },
@@ -50,11 +53,20 @@ namespace CursoCSharp {
                 {"Paramentros Nameados - Classes e métodos ", ParamsNomeados.Executar },
                 {"Gets e Sets - Classes e métodos ", GetSet.Executar },
                 {"Propriedade - Classes e métodos ", Props.Executar },
+                {"Readonly - Classes e métodos ", Readonly.Executar },
+                {"Enumeração - Classes e métodos ", ExemploEnum.Executar },
+                {"Struct - Classes e métodos ", ExemploStruct.Executar },
+                {"Struct Vs Classe - Classes e métodos ", StructVsClasse.Executar },
+                {"Valor Vs Referencia - Classes e métodos ", ValorVsReferencia.Executar },
+                {"Parâmetro Por Referencia - Classes e métodos ", ParamentroPorRefencia.Executar },
+                {"Parâmetro com valor Padrão - Classes e métodos ", ParametroComValorPadrao.Executar },
                 
-                
-                
-            });
 
+
+                //Coleções
+                {"Array - Coleções ", Colecoes.Array.Executar },
+
+            }); 
             central.SelecionarEExecutar();
         }
     }
